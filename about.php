@@ -1,5 +1,11 @@
 <?php
 include('includes/nav.php');
+
+// $URL = explode("/", $_SERVER['QUERY_STRING']);
+// // echo "<pre>";
+// // print_r($URL);
+// // echo "</pre>";
+// require_once($URL[0] . ".php");
 ?>
 <section class="page-title-area page-title-bg" style="background-image: url(assets/img/section-bg/page-title.jpg);">
     <div class="container">
@@ -44,17 +50,15 @@ include('includes/nav.php');
             <div class="col-xl-5 col-lg-6 col-md-8">
                 <div class="about-text">
                     <div class="section-heading mb-35">
-                        <span class="tagline">About Seeva</span>
+                        <span class="tagline">About Our Company</span>
                         <h2 class="title">All-in-One Worksite Health Solution</h2>
 
-                        <p>25 Years Of Experience in Medical Services</p>
+                        <p>Taking Care of Your Health is Our Top Priority</p>
                     </div>
                     <p>
-                        Sed ut perspiciatis unde omnis iste natus error voluptatem accusantium doloremque laudantium
-                        totam rem aperieaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
-                        dicta sunt explicabo. Nemo enim ipsam voluptatemsy quia voluptas sit aspernatur aut odit aut
-                        fugit quia conquntur magni dolores eos qui ratione voluptatem
+                        A brief statement outlining the purpose and mission of the clinic. This can include the commitment to patient care, community health, and any specifical goals for our values.
                     </p>
+                    <p>We offer flexible appointment scheduling options to accommodate your busy lifestyle. Whether you prefer to book in advance or need. Your health and well-being are our top priorities.</p>
                     <a href="about.html" class="template-btn mt-40">Learn More <i class="far fa-plus"></i></a>
                 </div>
             </div>
@@ -114,8 +118,8 @@ include('includes/nav.php');
             <div class="row justify-content-center">
                 <div class="col-lg-6 col-md-6">
                     <div class="section-heading text-center mb-40">
-                        <span class="tagline">Professional Team</span>
-                        <h2 class="title">Meet Our Experience Team Members</h2>
+                        <span class="tagline">Expert doctors</span>
+                        <h2 class="title">Meet our professional Doctors</h2>
                     </div>
                 </div>
             </div>

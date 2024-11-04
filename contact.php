@@ -1,5 +1,11 @@
 <?php
 include('includes/nav.php');
+
+// $URL = explode("/", $_SERVER['QUERY_STRING']);
+// // echo "<pre>";
+// // print_r($URL);
+// // echo "</pre>";
+// require_once($URL[0] . ".php");
 ?>
 <section class="page-title-area page-title-bg" style="background-image: url(assets/img/section-bg/page-title.jpg);">
     <div class="container">
@@ -26,8 +32,7 @@ include('includes/nav.php');
                                 <i class="fal fa-map-marker-alt"></i> Address
                             </h3>
                             <p>
-                                7895 Piermont Dr NE Albuquerque, <br>
-                                NM 198866, See Our Stores
+                                2478 Street City Ohio 90255
                             </p>
                         </div>
                         <div class="single-contact-info">
@@ -36,15 +41,15 @@ include('includes/nav.php');
                             </h3>
                             <ul>
                                 <li>
-                                    <span>Phone Number</span><a href="tel:+012020200">+012 (345) 6789</a>
+                                    <span>Phone Number</span><a href="tel:+012020200">+(402) 763 282 46</a>
                                 </li>
                                 <li>
                                     <span>Email Address</span><a
-                                        href="mailto:support@gmail.com">support@gmail.com</a>
+                                        href="mailto:support@gmail.com">info@mediax.com</a>
                                 </li>
-                                <li>
+                                <!-- <li>
                                     <span>Hotline</span><a href="tel:+12345678">12345678</a>
-                                </li>
+                                </li> -->
                             </ul>
                         </div>
                         <div class="single-contact-info">
@@ -70,31 +75,31 @@ include('includes/nav.php');
                     <ul>
                         <li>
                             <span><i class="far fa-angle-right"></i>Monday</span>
-                            <span>9:00-19:00</span>
+                            <span>10:00am to 7:00pm</span>
                         </li>
                         <li>
                             <span><i class="far fa-angle-right"></i>Tuesday</span>
-                            <span>9:00-19:00</span>
+                            <span>10:00am to 7:00pm</span>
                         </li>
                         <li>
                             <span><i class="far fa-angle-right"></i>Wednesday</span>
-                            <span>9:00-19:00</span>
+                            <span>10:00am to 7:00pm</span>
                         </li>
                         <li>
                             <span><i class="far fa-angle-right"></i>Thursday</span>
-                            <span>9:00-19:00</span>
+                            <span>10:00am to 7:00pm</span>
                         </li>
                         <li>
                             <span><i class="far fa-angle-right"></i>Friday</span>
-                            <span>9:00-19:00</span>
+                            <span>10:00am to 7:00pm</span>
                         </li>
                         <li>
                             <span><i class="far fa-angle-right"></i>Saturday</span>
-                            <span>9:00-19:00</span>
+                            <span>Closed</span>
                         </li>
                         <li>
                             <span><i class="far fa-angle-right"></i>Sunday</span>
-                            <span>9:00-19:00</span>
+                            <span>Closed</span>
                         </li>
                     </ul>
                 </div>
@@ -142,7 +147,7 @@ include('includes/nav.php');
                                 <textarea id="message" type="message" placeholder="Write Message...."></textarea>
                             </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-12">
                             <div class="input-field wow fadeInRight" data-wow-delay="0.8s">
                                 <button type="submit" class="template-btn">
                                     Send Us Message <i class="far fa-plus"></i>

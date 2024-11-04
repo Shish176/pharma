@@ -80,18 +80,18 @@
                     <div class="header-left">
                         <div class="site-logo">
                             <a href="index.html">
-                                <img src="assets/img/logo-3.png" alt="">
+                                <img src="assets/img/logoh.png" alt="">
                             </a>
                         </div>
                     </div>
                     <div class="header-center ml-xl-0 ml-auto">
                         <nav class="site-menu item-extra-gap d-none d-xl-block">
                             <ul class="primary-menu">
-                                <li><a href="index-five.html">Home</a></li>
-                                <li><a href="about.html">About</a></li>
-                                <li><a href="products.html">Products</a></li>
+                                <li><a href="index.php">Home</a></li>
+                                <li><a href="about.php">About</a></li>
+                                <li><a href="products.php">Products</a></li>
 
-                                <li><a href="contact.html">Contact</a></li>
+                                <li><a href="contact.php">Contact</a></li>
                             </ul>
                         </nav>
 

@@ -13,22 +13,22 @@
                      <div class="col-lg-3 col-md-8">
                          <div class="widget text-widget">
                              <div class="footer-logo">
-                                 <img src="assets/img/logo-white-3.png" alt="Seeva">
+                                 <h4 class="widget-title">Contact Us</h4>
                              </div>
                              <p>
-                                 Sed ut perspi unde omniste natus error sit voluptatem acc doloremque laudantium
+                                 Keep up to date with our latest news & special offer.
                              </p>
                              <ul class="contact-list">
                                  <li>
                                      <a href="https://goo.gl/maps/inpkL6wUZqMR3opX7"><i
-                                             class="far fa-map-marker-alt"></i>55 Main Road, USA</a>
+                                             class="far fa-map-marker-alt"></i>2478 Street City Ohio 90255</a>
                                  </li>
                                  <li>
                                      <a href="mailto:support@gmail.com"><i
-                                             class="far fa-envelope"></i>support@gmail.com</a>
+                                             class="far fa-envelope"></i>info@mediax.com</a>
                                  </li>
                                  <li>
-                                     <a href="tel:01267899"><i class="far fa-phone"></i>+012 (345) 678 99</a>
+                                     <a href="tel:01267899"><i class="far fa-phone"></i>+(402) 763 282 46</a>
                                  </li>
                              </ul>
                          </div>
@@ -38,19 +38,17 @@
                              <div class="col-xl-5 col-sm-6">
                                  <div class="d-flex justify-content-lg-center">
                                      <div class="widget nav-widget">
-                                         <h4 class="widget-title">Popular Services</h4>
+                                         <h4 class="widget-title">Quick Links</h4>
                                          <ul class="nav-links">
-                                             <li><a href="#">Orthopedic Care</a></li>
-                                             <li><a href="#">Gynecology Care</a></li>
-                                             <li><a href="#">Cardiology Care</a></li>
-                                             <li><a href="#">Dentistry Care</a></li>
-                                             <li><a href="#">Gastroenterology</a></li>
-                                             <li><a href="#">Urgent Care</a></li>
+                                             <li><a href="#">Home</a></li>
+                                             <li><a href="#">About Us</a></li>
+                                             <li><a href="#">Products</a></li>
+                                             <li><a href="#">Contact</a></li>
                                          </ul>
                                      </div>
                                  </div>
                              </div>
-                             <div class="col-xl-5 col-sm-6">
+                             <!-- <div class="col-xl-5 col-sm-6">
                                  <div class="d-flex justify-content-lg-center">
                                      <div class="widget nav-widget">
                                          <h4 class="widget-title">About Us</h4>
@@ -64,14 +62,14 @@
                                          </ul>
                                      </div>
                                  </div>
-                             </div>
+                             </div> -->
                          </div>
                      </div>
                      <div class="col-lg-3 col-md-10">
                          <div class="widget newsletters-widget">
-                             <h4 class="widget-title">Newsletters</h4>
+                             <h4 class="widget-title">Let’s Stay In Touch</h4>
                              <p>
-                                 Sed ut perspiciatis unde omniste <br> natus error sit voluptatem
+                                 Subscribe for newsletter
                              </p>
                              <form action="#" class="newsletters-form">
                                  <input type="email" placeholder="Email Address">
@@ -80,15 +78,15 @@
 
                              <div class="opening-notice mt-30">
                                  <h6><i class="far fa-clock"></i> Opening Hours</h6>
-                                 <p>Sun - Friday, 08:00 am - 05:00 pm</p>
+                                 <p>Monday - Friday, 24/7 Hours Open</p>
                              </div>
                          </div>
                      </div>
                  </div>
              </div>
-             <div class="copyright-area">
+             <!-- <div class="copyright-area">
                  <p>© 2021 <a href="#">Seeva</a>. All Rights Reserved</p>
-             </div>
+             </div> -->
          </div>
      </div>
  </footer>

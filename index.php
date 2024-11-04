@@ -1,6 +1,12 @@
 <?php
 include('includes/nav.php');
 include('includes/products.php');
+
+// $URL = explode("/", $_SERVER['QUERY_STRING']);
+// // echo "<pre>";
+// // print_r($URL);
+// // echo "</pre>";
+// require_once($URL[0] . ".php");
 ?>
 
 <section class="hero-slider hero-slider-two style-two">
@@ -101,28 +107,27 @@ include('includes/products.php');
             <div class="col-xl-5 col-lg-6 col-md-8 col-sm-10">
                 <div class="about-content mt-md-50">
                     <div class="section-heading mb-20">
-                        <span class="tagline color-tertiary">About Seeva</span>
+                        <span class="tagline color-tertiary">About Hinus</span>
                         <h2 class="title">
-                            25 Years We Provide Medicine Service
+                            Taking Care of Your Health is Our Top Priority
                         </h2>
                     </div>
                     <p>
-                        Sed ut perspiciatis unde omnis iste natus error sit volupta tem accusantium doloremque
-                        laudantium totam rem aperiam eaque ipsa quae abillo inventore veritatis et quase
+                        A brief statement outlining the purpose and mission of the clinic.
+                        This can include the commitment to patient care, community health,
+                        and any specifical goals for our values.
                     </p>
                     <ul class="check-list-two mt-40">
                         <li class="wow fadeInUp" data-wow-delay="0.3s">
-                            <h5>Pharmacy Care</h5>
+                            <h5>Painless Treatment</h5>
                             <p>
-                                Volupta tem accusantium doloremque laudantium totam rem aperiam eaque ipsa quae
-                                abillo
+                                Our products are certified by reputable organic.
                             </p>
                         </li>
                         <li class="wow fadeInUp" data-wow-delay="0.3s">
-                            <h5>Doctors Care</h5>
+                            <h5>Top Equipment</h5>
                             <p>
-                                Quis autem vel eum iure reprehenderit voluptate velit esse quam nihil molestiae
-                                consequa
+                                Our products are certified by reputable organic.
                             </p>
                         </li>
                     </ul>
@@ -171,9 +176,9 @@ include('includes/products.php');
             <div class="row justify-content-center">
                 <div class="col-lg-6 col-md-9">
                     <div class="cta-boxed-four mt-30"
-                        style="background-image: url(assets/img/cta-img/cta-boxed-4-1.jpg);">
-                        <span class="cta-tagline wow fadeInDown" data-wow-delay="0.3s">Spa & Beauty</span>
-                        <h3 class="cta-title">Face Beauty Loson Men & Women</h3>
+                        style="background-image: url(assets/img/cta-img/cta_bg_4_1.jpg);">
+                        <span class="cta-tagline wow fadeInDown" data-wow-delay="0.3s">Get Up to 50% OFF</span>
+                        <h3 class="cta-title">Blood Pressure Medicine</h3>
 
                         <a href="#" class="template-btn template-btn-white wow fadeInUp" data-wow-delay="0.4s">Shop
                             Now <i class="far fa-plus"></i></a>
@@ -181,9 +186,9 @@ include('includes/products.php');
                 </div>
                 <div class="col-lg-6 col-md-9">
                     <div class="cta-boxed-four mt-30"
-                        style="background-image: url(assets/img/cta-img/cta-boxed-4-2.jpg);">
-                        <span class="cta-tagline wow fadeInDown" data-wow-delay="0.3s">Spa & Beauty</span>
-                        <h3 class="cta-title">Vitamin Calcium Tablet & Syrup</h3>
+                        style="background-image: url(assets/img/cta-img/cta_bg_4_2.jpg);">
+                        <span class="cta-tagline wow fadeInDown" data-wow-delay="0.3s">Get Up to 50% OFF</span>
+                        <h3 class="cta-title">On All Covid-19 Vaccine</h3>
 
                         <a href="#" class="template-btn template-btn-fourth wow fadeInUp" data-wow-delay="0.4s">Shop
                             Now <i class="far fa-plus"></i></a>
@@ -240,7 +245,7 @@ include('includes/products.php');
                 <div class="col-xl-6 col-lg-8 col-md-10">
                     <div class="cta-content color-white text-center">
                         <div class="section-heading heading-white mb-20">
-                            <span class="tagline">Make An Appointment</span>
+                            <span class="tagline">Make An Inquiry</span>
                             <h2 class="title">Looking For Any Doctor Or Nurses Join Us Now</h2>
                         </div>
                         <p>
@@ -251,7 +256,7 @@ include('includes/products.php');
                             <li class="mr-sm-2">
                                 <a href="#" class="template-btn template-btn-tertiary wow fadeInUp"
                                     data-wow-delay="0.3s">
-                                    Appointment <i class="far fa-plus"></i>
+                                    Inquiry <i class="far fa-plus"></i>
                                 </a>
                             </li>
                             <li class="mt-3 mt-sm-0">
@@ -312,6 +317,57 @@ include('includes/products.php');
         </div>
     </section>
 </div>
+
+<section class="appointment-section">
+    <div class="container container-1500">
+        <div class="appointment-form-two style-two">
+            <div class="appointment-image" style="background-image: url(assets/img/appointment/03.jpg);">
+            </div>
+            <div class="form-wrap">
+                <div class="section-heading mb-50">
+                    <span class="tagline">Make an Inquiry</span>
+                    <h2 class="title">Fill-up The From</h2>
+                </div>
+                <form action="#">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="input-field wow fadeInLeft" data-wow-delay="0.3s">
+                                <input type="text" placeholder="Your Full Name">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="input-field wow fadeInRight" data-wow-delay="0.4s">
+                                <input type="email" placeholder="Email Address">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="input-field wow fadeInLeft" data-wow-delay="0.4s">
+                                <input type="number+" placeholder="Phone Number">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="input-field wow fadeInRight" data-wow-delay="0.6s">
+                                <input type="text" placeholder="DL Number">
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="input-field wow fadeInLeft" data-wow-delay="0.7s">
+                                <textarea id="message" type="message" placeholder="Write Message...."></textarea>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="input-field wow fadeInRight" data-wow-delay="0.8s">
+                                <button type="submit" class="template-btn">
+                                    Make an Inquiry <i class="far fa-plus"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
 
 <section class="product-carousel-section section-gap">
     <div class="container">
@@ -433,57 +489,6 @@ include('includes/products.php');
                         <a href="#" class="add-to-cart">Add to cart <i class="far fa-plus"></i></a>
                     </div>
                 </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="appointment-section">
-    <div class="container container-1500">
-        <div class="appointment-form-two style-two">
-            <div class="appointment-image" style="background-image: url(assets/img/appointment/03.jpg);">
-            </div>
-            <div class="form-wrap">
-                <div class="section-heading mb-50">
-                    <span class="tagline">Make an Inquiry</span>
-                    <h2 class="title">Fill-up The From</h2>
-                </div>
-                <form action="#">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="input-field wow fadeInLeft" data-wow-delay="0.3s">
-                                <input type="text" placeholder="Your Full Name">
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="input-field wow fadeInRight" data-wow-delay="0.4s">
-                                <input type="email" placeholder="Email Address">
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="input-field wow fadeInLeft" data-wow-delay="0.4s">
-                                <input type="number+" placeholder="Phone Number">
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="input-field wow fadeInRight" data-wow-delay="0.6s">
-                                <input type="text" placeholder="DL Number">
-                            </div>
-                        </div>
-                        <div class="col-md-12">
-                            <div class="input-field wow fadeInLeft" data-wow-delay="0.7s">
-                                <textarea id="message" type="message" placeholder="Write Message...."></textarea>
-                            </div>
-                        </div>
-                        <div class="col-md-12">
-                            <div class="input-field wow fadeInRight" data-wow-delay="0.8s">
-                                <button type="submit" class="template-btn">
-                                    Make an Inquiry <i class="far fa-plus"></i>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </form>
             </div>
         </div>
     </div>
