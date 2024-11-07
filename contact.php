@@ -75,27 +75,27 @@ include('includes/nav.php');
                     <ul>
                         <li>
                             <span><i class="far fa-angle-right"></i>Monday</span>
-                            <span>10:00am to 7:00pm</span>
+                            <span>8:00am to 9:00pm</span>
                         </li>
                         <li>
                             <span><i class="far fa-angle-right"></i>Tuesday</span>
-                            <span>10:00am to 7:00pm</span>
+                            <span>8:00am to 9:00pm</span>
                         </li>
                         <li>
                             <span><i class="far fa-angle-right"></i>Wednesday</span>
-                            <span>10:00am to 7:00pm</span>
+                            <span>8:00am to 9:00pm</span>
                         </li>
                         <li>
                             <span><i class="far fa-angle-right"></i>Thursday</span>
-                            <span>10:00am to 7:00pm</span>
+                            <span>8:00am to 9:00pm</span>
                         </li>
                         <li>
                             <span><i class="far fa-angle-right"></i>Friday</span>
-                            <span>10:00am to 7:00pm</span>
+                            <span>8:00am to 9:00pm</span>
                         </li>
                         <li>
                             <span><i class="far fa-angle-right"></i>Saturday</span>
-                            <span>Closed</span>
+                            <span>8:00am to 9:00pm</span>
                         </li>
                         <li>
                             <span><i class="far fa-angle-right"></i>Sunday</span>

@@ -40,10 +40,10 @@
                                      <div class="widget nav-widget">
                                          <h4 class="widget-title">Quick Links</h4>
                                          <ul class="nav-links">
-                                             <li><a href="#">Home</a></li>
-                                             <li><a href="#">About Us</a></li>
-                                             <li><a href="#">Products</a></li>
-                                             <li><a href="#">Contact</a></li>
+                                             <li><a href="index.php">Home</a></li>
+                                             <li><a href="about.php">About Us</a></li>
+                                             <li><a href="products.php">Products</a></li>
+                                             <li><a href="contact.php">Contact</a></li>
                                          </ul>
                                      </div>
                                  </div>

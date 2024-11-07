@@ -108,6 +108,10 @@ body {
 	box-sizing: border-box;
 }
 
+.card {
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
 img {
 	max-width: 116%;
 	-webkit-transition: all 0.3s ease-out 0s;
@@ -1947,8 +1951,9 @@ button {
 }
 
 .template-btn-white:hover {
-	background-color: var(--color-heading);
-	color: var(--color-white);
+	/* background-color: var(--color-heading);
+	color: var(--color-white); */
+	background-color: var(--color-tertiary);
 }
 
 .template-btn-primary {
@@ -1968,6 +1973,8 @@ button {
 }
 
 .template-btn-fourth:hover {
+	/* background-color: var(--color-white);
+	color: var(--color-heading); */
 	background-color: var(--color-tertiary);
 }
 

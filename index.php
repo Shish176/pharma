@@ -8,7 +8,7 @@ include('includes/products.php');
 // // echo "</pre>";
 // require_once($URL[0] . ".php");
 ?>
-
+<!-- Hero Slider Section -->
 <section class="hero-slider hero-slider-two style-two">
     <div class="hero-slider-active">
         <div class="single-hero-slider">
@@ -18,10 +18,8 @@ include('includes/products.php');
                 <div class="row">
                     <div class="col-lg-9 col-md-9">
                         <div class="hero-content">
-                            <span class="tagline" data-animation="fadeInDown" data-delay="0.5s">Love Respect &
-                                Care</span>
-                            <h1 class="title" data-animation="fadeInLeft" data-delay="0.6s">Medicine Care & Pharmacy
-                            </h1>
+                            <span class="tagline" data-animation="fadeInDown" data-delay="0.5s">A choose & quality pharma ceticul product, we provide best quality pharmaceutical.</span>
+                            <h1 class="title" data-animation="fadeInLeft" data-delay="0.6s">Love Respect & Care</h1>
                             <a href="#" class="template-btn template-btn-bordered" data-animation="fadeInUp"
                                 data-delay="0.7s">Explore Our Service <i class="far fa-plus"></i></a>
                         </div>
@@ -36,10 +34,8 @@ include('includes/products.php');
                 <div class="row">
                     <div class="col-lg-9 col-md-9">
                         <div class="hero-content">
-                            <span class="tagline" data-animation="fadeInDown" data-delay="0.5s">Love Respect &
-                                Care</span>
-                            <h1 class="title" data-animation="fadeInLeft" data-delay="0.6s">Medicine Care & Pharmacy
-                            </h1>
+                            <span class="tagline" data-animation="fadeInDown" data-delay="0.5s">We are making a range of prescription medicine & nutrition supplement, skin and beauty product.</span>
+                            <h1 class="title" data-animation="fadeInLeft" data-delay="0.6s">Love Respect & Care</h1>
                             <a href="#" class="template-btn template-btn-bordered" data-animation="fadeInUp"
                                 data-delay="0.7s">Explore Our Service <i class="far fa-plus"></i></a>
                         </div>
@@ -50,6 +46,34 @@ include('includes/products.php');
     </div>
     <div class="hero-slider-arrow"></div>
 </section>
+
+<!-- Slick Slider CSS -->
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+
+<!-- jQuery (Slick Slider depends on jQuery) -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<!-- Slick Slider JS -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+
+<!-- Initialize Slick Slider -->
+<script>
+    $(document).ready(function() {
+        $('.hero-slider-active').slick({
+            autoplay: true,
+            autoplaySpeed: 2000,
+            infinite: true,
+            arrows: false,
+            dots: false,
+            fade: true,
+            speed: 1000,
+            pauseOnHover: false,
+            pauseOnFocus: false
+        });
+    });
+</script>
 
 <section class="feature-section pharmacy-feature">
     <div class="container wow fadeInUp" data-wow-delay="0.3s">
@@ -109,15 +133,17 @@ include('includes/products.php');
                     <div class="section-heading mb-20">
                         <span class="tagline color-tertiary">About Hinus</span>
                         <h2 class="title">
-                            Taking Care of Your Health is Our Top Priority
+                            HINUS Pharmaceuticals
                         </h2>
                     </div>
                     <p>
-                        A brief statement outlining the purpose and mission of the clinic.
-                        This can include the commitment to patient care, community health,
-                        and any specifical goals for our values.
+                        Our vision at HINUS Pharmaceuticals is to be a trusted partner in healthcare,
+                        offering solutions that make a real difference. Through a focus on research and development,
+                        we continue to advance our capabilities, bringing new and improved formulations to market.
+                        We believe in the power of science, collaboration,
+                        and community-driven growth, and we are committed to expanding access to healthcare for everyone.
                     </p>
-                    <ul class="check-list-two mt-40">
+                    <!-- <ul class="check-list-two mt-40">
                         <li class="wow fadeInUp" data-wow-delay="0.3s">
                             <h5>Painless Treatment</h5>
                             <p>
@@ -130,7 +156,7 @@ include('includes/products.php');
                                 Our products are certified by reputable organic.
                             </p>
                         </li>
-                    </ul>
+                    </ul> -->
                     <a href="#" class="template-btn template-btn-fourth mt-40 wow fadeInUp" data-wow-delay="0.3s">
                         Learn More <i class="far fa-plus"></i>
                     </a>
@@ -139,10 +165,70 @@ include('includes/products.php');
         </div>
     </div>
 </section>
+<section class="appointment-section">
+    <div class="container container-1500">
+        <div class="appointment-form-two style-two">
+
+            <div class="form-wrap">
+                <div class="section-heading mb-50">
+                    <span class="tagline">Why Choose Us</span>
+                    <h2 class="title">We Have 25 Years Experience in Medical Health Services</h2>
+                    <!-- <p class="text-left mb-40" style="font-size: 1.1rem; color: #333;">
+                        We understand that choosing the right provider is essential. Let us know why you are interested in our services or what you value the most.
+                    </p> -->
+                    <p class="text-left mb-40" style="font-size: 1.1rem; color: #333;">
+                        At HINUS PHARMACEUTICAL, we are dedicated to providing the higest quality pharmaceutical, Natraceuticals & Skin & Beauty
+                        product at the most competitive price. We have created a unique protfolio of Nutraceuticals product with unique Test.
+                        We are committed to providing our customer with the best possible service and products. When you choose Hinus Pharmaceutical
+                        can be sure you are getting the best quality healthcare products.
+                    </p>
+                </div>
+                <form action="#">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="input-field wow fadeInLeft" data-wow-delay="0.3s">
+                                <input type="text" placeholder="Experience Doctor">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="input-field wow fadeInRight" data-wow-delay="0.4s">
+                                <input type="text" placeholder="Painless Treatment">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="input-field wow fadeInLeft" data-wow-delay="0.4s">
+                                <input type="text" placeholder="Top Equipment">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="input-field wow fadeInLeft" data-wow-delay="0.4s">
+                                <input type="text" placeholder="24/7 Advance Care">
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="input-field wow fadeInLeft" data-wow-delay="0.7s">
+                                <textarea id="message" type="message" placeholder="Any Additional Comments or Questions?"></textarea>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="input-field wow fadeInRight" data-wow-delay="0.8s">
+                                <button type="submit" class="template-btn">
+                                    Submit<i class="far fa-paper-plane"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="appointment-image" style="background-image: url(assets/img/tile-gallery/06.jpg);">
+            </div>
+        </div>
+    </div>
+</section>
 
 <section class="feature-medicine-section section-gap">
     <div class="container">
-        <div class="row justify-content-center align-items-center">
+        <!-- <div class="row justify-content-center align-items-center">
             <div class="col-lg-7 col-md-10 order-lg-last">
                 <div class="tile-gallery-three">
                     <div class="image-one">
@@ -171,14 +257,14 @@ include('includes/products.php');
                         data-wow-delay="0.4s">Learn More <i class="far fa-plus"></i></a>
                 </div>
             </div>
-        </div>
+        </div> -->
         <div class="cta-boxes mt-50">
             <div class="row justify-content-center">
                 <div class="col-lg-6 col-md-9">
                     <div class="cta-boxed-four mt-30"
                         style="background-image: url(assets/img/cta-img/cta_bg_4_1.jpg);">
                         <span class="cta-tagline wow fadeInDown" data-wow-delay="0.3s">Get Up to 50% OFF</span>
-                        <h3 class="cta-title">Blood Pressure Medicine</h3>
+                        <h3 class="cta-title" style="color: white;">Blood Pressure Medicine</h3>
 
                         <a href="#" class="template-btn template-btn-white wow fadeInUp" data-wow-delay="0.4s">Shop
                             Now <i class="far fa-plus"></i></a>
@@ -218,7 +304,7 @@ include('includes/products.php');
                             <div class="row justify-content-center product-boxes">
                                 <?php foreach ($items as $item) { ?>
                                     <div class="col-lg-3 col-sm-6 mb-4">
-                                        <div class="card">
+                                        <div class="card ">
                                             <!-- <img src="<?php echo htmlspecialchars($item['image']); ?>" class="card-img-top" alt="<?php echo htmlspecialchars($item['title']); ?>"> -->
                                             <div class="card-body">
                                                 <p class="title"><?php echo htmlspecialchars($item['title']); ?></p>
@@ -234,8 +320,6 @@ include('includes/products.php');
         </div>
     </div>
 </section>
-
-
 
 <div class="cta-with-counter">
     <section class="cta-section bg-size-cover"
@@ -369,7 +453,7 @@ include('includes/products.php');
     </div>
 </section>
 
-<section class="product-carousel-section section-gap">
+<!-- <section class="product-carousel-section section-gap">
     <div class="container">
         <div class="product-carousel-heading mb-70">
             <div class="row align-items-end">
@@ -492,7 +576,7 @@ include('includes/products.php');
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
 <?php
 include('includes/footer.php');

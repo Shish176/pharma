@@ -50,16 +50,12 @@ include('includes/nav.php');
             <div class="col-xl-5 col-lg-6 col-md-8">
                 <div class="about-text">
                     <div class="section-heading mb-35">
-                        <span class="tagline">About Our Company</span>
-                        <h2 class="title">All-in-One Worksite Health Solution</h2>
-
-                        <p>Taking Care of Your Health is Our Top Priority</p>
+                        <span class="tagline">HINUS Pharmaceuticals</span>
+                        <h2 class="title">Taking Care of Your Health is Our Top Priority</h2>
                     </div>
-                    <p>
-                        A brief statement outlining the purpose and mission of the clinic. This can include the commitment to patient care, community health, and any specifical goals for our values.
-                    </p>
-                    <p>We offer flexible appointment scheduling options to accommodate your busy lifestyle. Whether you prefer to book in advance or need. Your health and well-being are our top priorities.</p>
-                    <a href="about.html" class="template-btn mt-40">Learn More <i class="far fa-plus"></i></a>
+                    <p>Founded in 2020, HINUS Pharmaceuticals has swiftly emerged as a dynamic player in the healthcare industry, driven by a commitment to improve lives through accessible, high-quality medications. Since our inception, we have dedicated ourselves to enhancing the well-being of communities by offering innovative and affordable healthcare solutions. </p>
+                    <p>At HINUS Pharmaceuticals, our team of skilled professionals works diligently to maintain the highest standards of safety, efficacy, and quality in all our products. We take pride in our modern manufacturing practices, rigorous quality control processes, and adherence to regulatory standards. Our portfolio includes a diverse range of therapeutic segments designed to meet the healthcare needs of various patient populations.</p>
+                    <a href="about.php" class="template-btn mt-40">Learn More <i class="far fa-plus"></i></a>
                 </div>
             </div>
         </div>
@@ -75,14 +71,14 @@ include('includes/nav.php');
                 <div class="col-md-10">
                     <div class="section-heading heading-white text-center mb-40">
                         <span class="tagline">Why Choose Our Medical</span>
-                        <h2 class="title">Breakthrough in Comprehensive, Flexible Care Delivery Models</h2>
+                        <h2 class="title">We Have 25 Years Experience in Medical Health Services</h2>
                     </div>
                 </div>
             </div>
             <div class="row justify-content-center">
                 <div class="col-lg-4 col-md-6 col-sm-9">
                     <div class="image-title-box mt-30 wow fadeInUp" data-wow-delay="0.3s">
-                        <h4 class="title"><a href="service.html">Optimize Your Health Care Services</a></h4>
+                        <h4 class="title"><a href="service.html">Experience Doctor</a></h4>
 
                         <div class="image">
                             <img src="assets/img/img-title-box/01.jpg" alt="Image">
@@ -91,7 +87,7 @@ include('includes/nav.php');
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-9">
                     <div class="image-title-box mt-30 wow fadeInUp" data-wow-delay="0.4s">
-                        <h4 class="title"><a href="service.html">Boost Employee Engagement</a></h4>
+                        <h4 class="title"><a href="service.html">Painless Treatment</a></h4>
 
                         <div class="image">
                             <img src="assets/img/img-title-box/02.jpg" alt="Image">
@@ -100,7 +96,7 @@ include('includes/nav.php');
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-9">
                     <div class="image-title-box mt-30 wow fadeInUp" data-wow-delay="0.5s">
-                        <h4 class="title"><a href="service.html">Accelerate Your Return On Investment</a></h4>
+                        <h4 class="title"><a href="service.html">Top Equipment</a></h4>
 
                         <div class="image">
                             <img src="assets/img/img-title-box/03.jpg" alt="Image">
@@ -131,9 +127,9 @@ include('includes/nav.php');
                         </div>
                         <div class="doctor-information">
                             <h5 class="name">
-                                <a href="doctor-details.html">Allan K. Simons</a>
+                                <a href="doctor-details.html">Dr. Malcolm Function</a>
                             </h5>
-                            <span class="specialty">Dental Specialist</span>
+                            <span class="specialty">Neurologist</span>
                             <ul class="social-links">
                                 <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
                                 <li><a href="#"><i class="fab fa-twitter"></i></a></li>
@@ -151,9 +147,9 @@ include('includes/nav.php');
                         </div>
                         <div class="doctor-information">
                             <h5 class="name">
-                                <a href="doctor-details.html">Marcus K. Staton</a>
+                                <a href="doctor-details.html">Dr. Douglas Lyphe</a>
                             </h5>
-                            <span class="specialty">Neurology</span>
+                            <span class="specialty">Physiotherapist</span>
                             <ul class="social-links">
                                 <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
                                 <li><a href="#"><i class="fab fa-twitter"></i></a></li>
@@ -171,9 +167,9 @@ include('includes/nav.php');
                         </div>
                         <div class="doctor-information">
                             <h5 class="name">
-                                <a href="doctor-details.html">Travis A. Costillo</a>
+                                <a href="doctor-details.html">Dr. Esabel Macran</a>
                             </h5>
-                            <span class="specialty">Orthopedics</span>
+                            <span class="specialty">Dentist</span>
                             <ul class="social-links">
                                 <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
                                 <li><a href="#"><i class="fab fa-twitter"></i></a></li>
@@ -191,9 +187,9 @@ include('includes/nav.php');
                         </div>
                         <div class="doctor-information">
                             <h5 class="name">
-                                <a href="doctor-details.html">M.Calhoun</a>
+                                <a href="doctor-details.html">Dr. Wisteria Ravenc</a>
                             </h5>
-                            <span class="specialty">Cardiology</span>
+                            <span class="specialty">Cardiologist</span>
                             <ul class="social-links">
                                 <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
                                 <li><a href="#"><i class="fab fa-twitter"></i></a></li>
@@ -248,7 +244,7 @@ include('includes/nav.php');
                         <div class="accordion-item active-accordion">
                             <div class="accordion-header">
                                 <h6 data-toggle="collapse" aria-expanded="true" data-target="#itemTwo">
-                                    <span>Our 10 Years Working Experience</span>
+                                    <span>Our 25 Years Working Experience</span>
                                 </h6>
                             </div>
                             <div class="collapse show" id="itemTwo" data-parent="#accordionFaq">
