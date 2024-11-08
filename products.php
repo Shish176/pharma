@@ -4,11 +4,11 @@ include('includes/products.php');
 ?>
 
 <!--====== Page Title Start ======-->
-<section class="page-title-area page-title-bg" style="background-image: url(assets/img/section-bg/page-title.jpg);">
+<section class="page-title-area page-title-bg" style="background-image: url(assets/img/section-bg/titlebg01.jpg);">
     <div class="container">
         <h1 class="page-title">Products</h1>
         <ul class="breadcrumb-nav">
-            <li><a href="#">Home</a></li>
+            <li><a href="index.php">Home</a></li>
             <li><i class="fas fa-angle-right"></i></li>
             <li>Products</li>
         </ul>

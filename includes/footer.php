@@ -20,16 +20,17 @@
                              </p>
                              <ul class="contact-list">
                                  <li>
-                                     <a href="https://goo.gl/maps/inpkL6wUZqMR3opX7"><i
-                                             class="far fa-map-marker-alt"></i>2478 Street City Ohio 90255</a>
+                                     <a href="https://goo.gl/maps/inpkL6wUZqMR3opX7">
+                                         <i class="far fa-map-marker-alt"></i>G/7/5 Al Mizab Estate Old Sonal Factory Vatava Narol Road Vatva Ahmedabad Gujrat 38244
+                                     </a>
                                  </li>
                                  <li>
                                      <a href="mailto:support@gmail.com"><i
-                                             class="far fa-envelope"></i>info@mediax.com</a>
+                                             class="far fa-envelope"></i>info@hinuspharmaceutical.com</a>
                                  </li>
-                                 <li>
+                                 <!-- <li>
                                      <a href="tel:01267899"><i class="far fa-phone"></i>+(402) 763 282 46</a>
-                                 </li>
+                                 </li> -->
                              </ul>
                          </div>
                      </div>

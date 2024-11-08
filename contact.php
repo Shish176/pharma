@@ -7,12 +7,12 @@ include('includes/nav.php');
 // // echo "</pre>";
 // require_once($URL[0] . ".php");
 ?>
-<section class="page-title-area page-title-bg" style="background-image: url(assets/img/section-bg/page-title.jpg);">
+<section class="page-title-area page-title-bg" style="background-image: url(assets/img/section-bg/titlebg01.jpg);">
     <div class="container">
         <h1 class="page-title">Contact Us</h1>
 
         <ul class="breadcrumb-nav">
-            <li><a href="#">Home</a></li>
+            <li><a href="index.php">Home</a></li>
             <li><i class="fas fa-angle-right"></i></li>
             <li>Contact Us</li>
         </ul>
@@ -32,7 +32,7 @@ include('includes/nav.php');
                                 <i class="fal fa-map-marker-alt"></i> Address
                             </h3>
                             <p>
-                                2478 Street City Ohio 90255
+                                G/7/5 Al Mizab Estate Old Sonal Factory Vatava Narol Road Vatva Ahmedabad Gujrat 382440
                             </p>
                         </div>
                         <div class="single-contact-info">
@@ -40,12 +40,12 @@ include('includes/nav.php');
                                 <i class="fal fa-coffee"></i> Get In Touch
                             </h3>
                             <ul>
-                                <li>
+                                <!-- <li>
                                     <span>Phone Number</span><a href="tel:+012020200">+(402) 763 282 46</a>
-                                </li>
+                                </li> -->
                                 <li>
                                     <span>Email Address</span><a
-                                        href="mailto:support@gmail.com">info@mediax.com</a>
+                                        href="mailto:support@gmail.com">info@hinuspharmaceutical.com</a>
                                 </li>
                                 <!-- <li>
                                     <span>Hotline</span><a href="tel:+12345678">12345678</a>
@@ -107,13 +107,10 @@ include('includes/nav.php');
         </div>
     </div>
 </section>
-
-
-<!--====== Appointment Section Start ======-->
 <section class="appointment-section">
     <div class="container container-1500">
         <div class="appointment-form-two style-two">
-            <div class="appointment-image" style="background-image: url(assets/img/appointment/03.jpg);">
+            <div class="appointment-image" style="background-image: url(assets/img/tile-gallery/08.png); background-color: white;">
             </div>
             <div class="form-wrap">
                 <div class="section-heading mb-50">
@@ -160,8 +157,6 @@ include('includes/nav.php');
         </div>
     </div>
 </section>
-<!--====== Appointment Section End ======-->
-
 <!--====== Back to Top Start ======-->
 
 <?php

@@ -7,12 +7,12 @@ include('includes/nav.php');
 // // echo "</pre>";
 // require_once($URL[0] . ".php");
 ?>
-<section class="page-title-area page-title-bg" style="background-image: url(assets/img/section-bg/page-title.jpg);">
+<section class="page-title-area page-title-bg" style="background-image: url(assets/img/section-bg/titlebg01.jpg);">
     <div class="container">
         <h1 class="page-title">About</h1>
 
         <ul class="breadcrumb-nav">
-            <li><a href="#">Home</a></li>
+            <li><a href="index.php">Home</a></li>
             <li><i class="fas fa-angle-right"></i></li>
             <li>About</li>
         </ul>

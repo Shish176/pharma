@@ -36,7 +36,7 @@
         </div>
         <!--====== Start Template Header ======-->
         <header class="template-header sticky-header sticky-header header-five">
-            <div class="header-top-list-two d-none d-lg-block">
+            <!-- <div class="header-top-list-two d-none d-lg-block">
                 <div class="container container-1300">
                     <div class="list-items">
                         <div class="single-list-item">
@@ -74,7 +74,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
             <div class="container container-1600">
                 <div class="header-navigation">
                     <div class="header-left">
@@ -95,15 +95,72 @@
                         </nav>
 
                     </div>
-                    <div class="header-right d-none d-lg-flex">
+                    <div class="header-right">
                         <ul class="extra-icons">
-                            <li>
-                                <a href="#" class="template-btn template-btn-tertiary">Get in Touch<i
-                                        class="far fa-plus"></i></a>
+                            <li class="d-none d-sm-block">
+                                <div class="header-search-area">
+                                    <!-- <form action="#">
+                                        <input type="search" placeholder="Search Here">
+                                        <button type="submit"><i class="far fa-search"></i></button>
+                                    </form> -->
+                                </div>
+                            </li>
+                            <li class="d-none d-xl-block">
+                                <div class="off-canvas-btn style-two">
+                                    <span></span>
+                                </div>
+                            </li>
+                            <li class="d-xl-none">
+                                <a href="#" class="navbar-toggler">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </a>
                             </li>
                         </ul>
                     </div>
                 </div>
+            </div>
+
+            <!-- Start Off Canvas -->
+            <div class="slide-panel off-canvas-panel">
+                <div class="panel-overlay"></div>
+                <div class="panel-inner">
+                    <div class="canvas-logo">
+                        <img src="assets/img/logoh.png" alt="">
+                    </div>
+                    <div class="about-us">
+                        <h5 class="canvas-widget-title">About Hinus</h5>
+                        <p>
+                            At HINUS Pharmaceuticals, our team of skilled professionals works diligently to maintain the highest standards of safety, efficacy, and quality in all our products.
+                        </p>
+                    </div>
+                    <div class="contact-us">
+                        <h5 class="canvas-widget-title">Contact Us</h5>
+                        <ul>
+                            <li>
+                                <i class="far fa-map-marker-alt"></i>
+                                G/7/5 Al Mizab Estate Old Sonal Factory Vatava Narol Road Vatva Ahmedabad Gujrat 38244
+                            </li>
+                            <li>
+                                <i class="far fa-envelope-open"></i>
+                                <a href="mailto:support@qolle.com">info@hinuspharmaceutical.com</a>
+                                <!-- <a href="mailto:info@qolle.com">info@seeva.com</a> -->
+                            </li>
+                            <!-- <li>
+                                <i class="far fa-phone"></i>
+                                <a href="tel:+01234567899">+(402) 763 282 46</a><br>
+                                <a href="tel:+8563214">+8563214</a>
+                            </li> -->
+                        </ul>
+                    </div>
+                    <a href="#" class="panel-close">
+                        <i class="fal fa-times"></i>
+                    </a>
+                </div>
+            </div>
+            <!-- End Off Canvas -->
+            </div>
             </div>
 
             <!-- Start Mobile Panel -->

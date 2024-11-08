@@ -13,13 +13,13 @@ include('includes/products.php');
     <div class="hero-slider-active">
         <div class="single-hero-slider">
             <div class="hero-slider-bg bg-size-cover"
-                style="background-image: url(assets/img/hero-img/hero-slider-6.jpg);"></div>
+                style="background-image: url(assets/img/hero-img/inquiry01.jpg);"></div>
             <div class="container">
                 <div class="row">
                     <div class="col-lg-9 col-md-9">
                         <div class="hero-content">
                             <span class="tagline" data-animation="fadeInDown" data-delay="0.5s">A choose & quality pharma ceticul product, we provide best quality pharmaceutical.</span>
-                            <h1 class="title" data-animation="fadeInLeft" data-delay="0.6s">Love Respect & Care</h1>
+                            <h1 class="title" data-animation="fadeInLeft" data-delay="0.6s">Love || Respect & Care</h1>
                             <a href="#" class="template-btn template-btn-bordered" data-animation="fadeInUp"
                                 data-delay="0.7s">Explore Our Service <i class="far fa-plus"></i></a>
                         </div>
@@ -29,13 +29,29 @@ include('includes/products.php');
         </div>
         <div class="single-hero-slider">
             <div class="hero-slider-bg bg-size-cover"
-                style="background-image: url(assets/img/hero-img/hero-slider-7.jpg);"></div>
+                style="background-image: url(assets/img/hero-img/slider02.jpeg);"></div>
             <div class="container">
                 <div class="row">
                     <div class="col-lg-9 col-md-9">
                         <div class="hero-content">
                             <span class="tagline" data-animation="fadeInDown" data-delay="0.5s">We are making a range of prescription medicine & nutrition supplement, skin and beauty product.</span>
-                            <h1 class="title" data-animation="fadeInLeft" data-delay="0.6s">Love Respect & Care</h1>
+                            <h1 class="title" data-animation="fadeInLeft" data-delay="0.6s">Love || Respect & Care</h1>
+                            <a href="#" class="template-btn template-btn-bordered" data-animation="fadeInUp"
+                                data-delay="0.7s">Explore Our Service <i class="far fa-plus"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="single-hero-slider">
+            <div class="hero-slider-bg bg-size-cover"
+                style="background-image: url(assets/img/hero-img/slider03.jpg);"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-9 col-md-9">
+                        <div class="hero-content">
+                            <span class="tagline" data-animation="fadeInDown" data-delay="0.5s">PCD pharma franchisea.</span>
+                            <h1 class="title" data-animation="fadeInLeft" data-delay="0.6s">Love || Respect & Care</h1>
                             <a href="#" class="template-btn template-btn-bordered" data-animation="fadeInUp"
                                 data-delay="0.7s">Explore Our Service <i class="far fa-plus"></i></a>
                         </div>
@@ -262,17 +278,17 @@ include('includes/products.php');
             <div class="row justify-content-center">
                 <div class="col-lg-6 col-md-9">
                     <div class="cta-boxed-four mt-30"
-                        style="background-image: url(assets/img/cta-img/cta_bg_4_1.jpg);">
+                        style="background-image: url(assets/img/cta-img/left.jpg);">
                         <span class="cta-tagline wow fadeInDown" data-wow-delay="0.3s">Get Up to 50% OFF</span>
-                        <h3 class="cta-title" style="color: white;">Blood Pressure Medicine</h3>
+                        <h3 class="cta-title">Blood Pressure Medicine</h3>
 
-                        <a href="#" class="template-btn template-btn-white wow fadeInUp" data-wow-delay="0.4s">Shop
+                        <a href="#" class="template-btn template-btn-fourth wow fadeInUp" data-wow-delay="0.4s">Shop
                             Now <i class="far fa-plus"></i></a>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-9">
                     <div class="cta-boxed-four mt-30"
-                        style="background-image: url(assets/img/cta-img/cta_bg_4_2.jpg);">
+                        style="background-image: url(assets/img/cta-img/right.jpg);">
                         <span class="cta-tagline wow fadeInDown" data-wow-delay="0.3s">Get Up to 50% OFF</span>
                         <h3 class="cta-title">On All Covid-19 Vaccine</h3>
 
@@ -323,16 +339,16 @@ include('includes/products.php');
 
 <div class="cta-with-counter">
     <section class="cta-section bg-size-cover"
-        style="background-image: url(assets/img/cta-img/cta-section-bg-2.jpg);">
+        style="background-image: url(assets/img/cta-img/inquiry02.jpg);">
         <div class="container">
             <div class="row align-items-center justify-content-center">
                 <div class="col-xl-6 col-lg-8 col-md-10">
                     <div class="cta-content color-white text-center">
                         <div class="section-heading heading-white mb-20">
-                            <span class="tagline">Make An Inquiry</span>
-                            <h2 class="title">Looking For Any Doctor Or Nurses Join Us Now</h2>
+                            <span class="tagline" style="color: black;">Make An Inquiry</span>
+                            <h2 class="title" style="color: black;">Hinus is Leading & Modern Technologies Pharma</h2>
                         </div>
-                        <p>
+                        <p style="color: black;">
                             Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloreue
                             laudantium totamrem aperiam eaque quae abillo
                         </p>
@@ -344,7 +360,7 @@ include('includes/products.php');
                                 </a>
                             </li>
                             <li class="mt-3 mt-sm-0">
-                                <a href="#" class="template-btn template-btn-white wow fadeInUp"
+                                <a href="contact.php" class="template-btn template-btn-white wow fadeInUp"
                                     data-wow-delay="0.4s">
                                     Contact Us <i class="far fa-plus"></i>
                                 </a>
@@ -363,43 +379,79 @@ include('includes/products.php');
                     <div class="col-lg-auto col-md-5 col-sm-6">
                         <div class="counter-item counter-white">
                             <div class="counter-wrap">
-                                <span class="counter">359</span>
-                                <span class="suffix">+</span>
+                                <span class="counter">150k+</span>
                             </div>
-                            <h6 class="title">Professional Doctors</h6>
+                            <h6 class="title">Formulation</h6>
                         </div>
                     </div>
                     <div class="col-lg-auto col-md-5 col-sm-6">
                         <div class="counter-item counter-white">
                             <div class="counter-wrap">
-                                <span class="counter">85</span>
-                                <span class="suffix">k+</span>
+                                <span class="counter">13+</span>
                             </div>
-                            <h6 class="title">Satisfied Our Clients</h6>
+                            <h6 class="title">Years Experience</h6>
                         </div>
                     </div>
                     <div class="col-lg-auto col-md-5 col-sm-6">
                         <div class="counter-item counter-white">
                             <div class="counter-wrap">
-                                <span class="counter">863</span>
-                                <span class="suffix">+</span>
+                                <span class="counter">190+</span>
                             </div>
-                            <h6 class="title">Win International Awards</h6>
+                            <h6 class="title">Team </h6>
                         </div>
                     </div>
                     <div class="col-lg-auto col-md-5 col-sm-6">
                         <div class="counter-item counter-white">
                             <div class="counter-wrap">
-                                <span class="counter">86</span>
-                                <span class="suffix">k+</span>
+                                <span class="counter">320+</span>
                             </div>
-                            <h6 class="title">4.9 Star Reviews</h6>
+                            <h6 class="title">dossers</h6>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const counters = document.querySelectorAll('.counter');
+            const speed = 200; // Adjust speed as desired
+
+            const animateCounter = (counter) => {
+                const target = +counter.getAttribute('data-target');
+                const increment = target / speed;
+
+                const updateCount = () => {
+                    const currentCount = +counter.innerText.replace(/[^\d.-]/g, ''); // Remove any non-numeric characters
+                    if (currentCount < target) {
+                        counter.innerText = Math.ceil(currentCount + increment) + '+';
+                        setTimeout(updateCount, 20); // Adjust delay for smoothness
+                    } else {
+                        counter.innerText = target + '+'; // Ensures target number is set exactly
+                    }
+                };
+
+                updateCount();
+            };
+
+            const checkCountersInView = () => {
+                counters.forEach(counter => {
+                    const counterPosition = counter.getBoundingClientRect().top;
+                    const windowHeight = window.innerHeight;
+                    if (counterPosition < windowHeight && counterPosition > 0 && !counter.classList.contains('counted')) {
+                        counter.setAttribute('data-target', counter.innerText.replace(/[^\d.-]/g, '')); // Save original value
+                        counter.innerText = '0+';
+                        animateCounter(counter);
+                        counter.classList.add('counted'); // Avoids re-animating
+                    }
+                });
+            };
+
+            // Trigger the counter when scrolled into view
+            window.addEventListener('scroll', checkCountersInView);
+            checkCountersInView(); // Run on page load in case counters are in view
+        });
+    </script>
 </div>
 
 <section class="appointment-section">
