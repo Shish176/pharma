@@ -144,7 +144,7 @@
                             </li>
                             <li>
                                 <i class="far fa-envelope-open"></i>
-                                <a href="mailto:support@qolle.com">info@hinuspharmaceutical.com</a>
+                                <a href="mailto:support@qolle.com">hinuspharmaceutical@gmail.com</a>
                                 <!-- <a href="mailto:info@qolle.com">info@seeva.com</a> -->
                             </li>
                             <!-- <li>
@@ -173,10 +173,10 @@
                     <nav class="mobile-menu">
                         <ul class="primary-menu">
 
-                            <li><a href="index-five.html">Home</a></li>
-                            <li><a href="about.html">About</a></li>
-
-                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="index.php">Home</a></li>
+                            <li><a href="about.php">About</a></li>
+                            <li><a href="products.php">Products</a></li>
+                            <li><a href="contact.php">Contact</a></li>
                         </ul>
                     </nav>
                     <a href="#" class="panel-close">

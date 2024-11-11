@@ -492,7 +492,7 @@ include('includes/products.php');
                             </div>
                         </div>
                         <div class="col-md-12">
-                            <div class="input-field wow fadeInRight" data-wow-delay="0.8s">
+                            <div class="textarea-field wow fadeInRight" data-wow-delay="0.8s">
                                 <button type="submit" class="template-btn">
                                     Make an Inquiry <i class="far fa-plus"></i>
                                 </button>

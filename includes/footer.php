@@ -26,7 +26,7 @@
                                  </li>
                                  <li>
                                      <a href="mailto:support@gmail.com"><i
-                                             class="far fa-envelope"></i>info@hinuspharmaceutical.com</a>
+                                             class="far fa-envelope"></i>hinuspharmaceutical@gmail.com</a>
                                  </li>
                                  <!-- <li>
                                      <a href="tel:01267899"><i class="far fa-phone"></i>+(402) 763 282 46</a>
@@ -77,10 +77,10 @@
                                  <button type="submit"><i class="far fa-arrow-right"></i></button>
                              </form>
 
-                             <div class="opening-notice mt-30">
+                             <!-- <div class="opening-notice mt-30">
                                  <h6><i class="far fa-clock"></i> Opening Hours</h6>
                                  <p>Monday - Friday, 24/7 Hours Open</p>
-                             </div>
+                             </div> -->
                          </div>
                      </div>
                  </div>

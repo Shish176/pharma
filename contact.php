@@ -45,7 +45,7 @@ include('includes/nav.php');
                                 </li> -->
                                 <li>
                                     <span>Email Address</span><a
-                                        href="mailto:support@gmail.com">info@hinuspharmaceutical.com</a>
+                                        href="mailto:support@gmail.com">hinuspharmaceutical@gmail.com</a>
                                 </li>
                                 <!-- <li>
                                     <span>Hotline</span><a href="tel:+12345678">12345678</a>

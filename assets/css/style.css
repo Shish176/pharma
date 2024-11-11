@@ -586,7 +586,7 @@ select,
 	width: 100%;
 	height: 65px;
 	color: var(--color-heading-50);
-	background-color: var(--color-grey);
+	background-color: var(--color-white);
 	border: 1px solid transparent;
 	font-size: 18px;
 	font-weight: 400;
@@ -3967,11 +3967,13 @@ button {
 }
 
 .appointment-form-two .input-field,
+.appointment-form-two .textarea-field,
 .appointment-form-two .nice-select {
 	margin-bottom: 20px;
 }
 
 .appointment-form-two input,
+.appointment-form-two textarea,
 .appointment-form-two .nice-select {
 	background-color: var(--color-white);
 	border-radius: 35px;
@@ -3984,6 +3986,7 @@ button {
 @media (max-width: 575px) {
 
 	.appointment-form-two input,
+	.appointment-form-two textarea,
 	.appointment-form-two .nice-select {
 		font-size: 15px;
 		height: 55px;
@@ -4053,6 +4056,7 @@ button {
 }
 
 .appointment-form-two.style-two .input-field,
+.appointment-form-two.style-two .textarea-field,
 .appointment-form-two.style-two .nice-select {
 	margin-bottom: 30px;
 }

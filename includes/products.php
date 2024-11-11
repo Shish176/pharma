@@ -1,79 +1,11 @@
 <?php
 
 $products = [
-    'Antibiotic' => [
-        [
-            'id' => 1,
-            'title' => 'HINCOLD LM Tablets',
-            'image' => 'assets/img/products/Untitled design (18).png',
-            'desc' => 'HINCOLD LM Tablet is a combination medicine used in the treatment of allergic symptoms such as runny nose , stuffy nose , sneezing , itching , swelling , watery eyes and congestion or stuffiness . It also reduces inflammation in the airways and make breathing easier .HINCOLD LM Tablet should be given under the supervision of a doctor or health professional.',
-        ],
-        [
-            'id' => 2,
-            'title' => 'HINCOLD DX Syrup',
-            'image' => 'assets/img/products/Untitled design (22).png',
-            'desc' => 'HINCOLD-DX Syrup is used in the treatment of dry cough. Hincold dx syrup is a combination of three medicines: Chlorpheniramine maleate, Phenylephrine and Dextromethorphan Hydrobromide, which relieves dry cough. Chlorpheniramine is an anti allergic which relieves allergy symptoms like runny nose, watery eyes and sneezing. Phenylephrine is a potent and safe nasal decongestant. Dextromethorphan Hydrobromide is a cough suppressant that relieves cough by the reducing the activity of cough center in the brain.',
-        ],
-        [
-            'id' => 3,
-            'title' => 'HINCOLD P Syrup',
-            'image' => 'assets/img/products/Untitled design (21).png',
-            'desc' => 'HINCOLD-P Suspension is used in the treatment of common cold & associated symptoms. Hincold P suspension is a combination of three medicines: Chlorpheniramine maleate, Paracetamol and Phenylephrine which relieves common cold symptoms. Chlorpheniramine is an anti allergic which relieves allergy symptoms like runny nose, watery eyes and sneezing. Paracetamol is an time tested antipyretics analgesic. Phenylephrine is a potent and safe nasal decongestant.',
-        ],
-        [
-            'id' => 4,
-            'title' => 'MUFREE Gel',
-            'image' => 'assets/img/products/Untitled design (12).png',
-            'desc' => 'MUFREE Gel contain choline salicylate, Lignocaine, Tannic acid, cetrimide. Mufree gel is used for the temporary relief of pain associated with fever blisters, denture pain, mouth ulcer & gums pain.
-
-                        Key Benefits :
-
-                        Antiseptic pain relieving gel that promotes the healing process of the tongue and gums.
-                        Mufree gel is used for denture pain , mouth ulcer, bleeding gum.
-                        Easy application without stinging or burning sensation in the mouth.',
-        ],
-        [
-            'id' => 5,
-            'title' => 'REBEHIN DSR Capsule',
-            'image' => 'assets/img/products/Untitled design (9).png',
-            'desc' => 'REBEHIN-DSR capsule is a combination of two medicine. Rabeprazole & Domperidone. Rabeprazole is a proton pump inhibitor (PPI) which work by reducing the amount of acid in the stomach which helps in the relief of acid related indigestion & heart burn. Domperidone is a Prokinetic which work on the upper digestive to increase the movement of stomach and intestine. Rebehin DSR capsule used in the treatment of GERD and associated problem. Rebehin DSR capsule give fastest relief from heart burn, belching & bloating.',
-        ],
-        [
-            'id' => 6,
-            'title' => 'ITRANUS Capsule',
-            'image' => 'assets/img/products/Untitled design (16).png',
-            'desc' => 'ITRANUS-200 capsule contain Itraconazole 200mg. Itranus 200 capsule is belong to a group of medicines called antifungals. It is used for the treatment of fungal infection. It is used to treat fungal infection of the mouth, vagina(thrush), skin & other parts of the body including fingernails and toenails. It kill fungi by destroying the fungal cell membrane.
-
-                        Key Benefits :
-
-                        Effectively treats resistant & recurrent fungal infection
-                        Achieves high clinical & mycological cure rates
-                        Potent inhibitor of most human fungal pathogens',
-        ],
-        [
-            'id' => 7,
-            'title' => 'SEDERM Cream',
-            'image' => 'assets/img/products/1.png',
-            'desc' => 'SEDERM CREAM is a combination medicine that is used to treat various types of skin infections . It minimizes symptoms of inflammation such as redness , swelling , and itching . It also has antimicrobial action against infection - causing microorganisms . Sederm Cream for external use and should be used as advised by your doctor',
-        ],
-        [
-            'id' => 8,
-            'title' => 'HINFLAM SP Tablets',
-            'image' => 'assets/img/products/Untitled design (25).png',
-            'desc' => 'HINFLAM-SP Tabletsis a combination of three medicines Aceclofenac, Paracetamol & Serratiopeptidase. Aceclofanac is a non-steroidal anti inflammatory drug(NSAID), Paracetamol is an antipyretic and serratiopeptidas reduced swelling and improves microcirculation & promotes healing. Hinflam- sp tablets is used for pain relief. It relieves pain in condition like spinal spondylitis, post operative spasm, musculoskeletal pain etc.',
-        ],
-        [
-            'id' => 9,
-            'title' => 'AZIHIN Tablets',
-            'image' => 'assets/img/products/Untitled design (29).png',
-            'desc' => 'zihin- 250 Tablet is an antibiotic used to treat various types of bacterial infections of the respiratory tract , ear , nose , throat , lungs , skin , and eye in adults and children . It is also effective in typhoid fever and some sexually transmitted diseases like gonorrhea. Azihin 250mg Tablet should be given under the supervision of a doctor or health professiona',
-        ],
-    ],
     'Gynec Segment Product' => [
         [
             'id' => 1,
             'title' => 'LB-TRAL – CF Sachets',
-            'image' => 'assets/img/products/Untitled design (15).png',
+            'image' => 'assets/img/products/Untitled design (14).png',
             'desc' => 'LB-TRAL CF a tasty way for cramps free move. This product is usefull in Leg Cramps, Night Cramps, Muscle Cramps, Cramps in Clave & Feet
 
                         Key Benefits :
@@ -178,10 +110,36 @@ $products = [
             'image' => 'assets/img/products/1.png',
             'desc' => 'SEDERM CREAM is a combination medicine that is used to treat various types of skin infections . It minimizes symptoms of inflammation such as redness , swelling , and itching . It also has antimicrobial action against infection - causing microorganisms . Sederm Cream for external use and should be used as advised by your doctor',
         ],
+        [
+            'id' => 11,
+            'title' => 'HINVITA PLUS TABLETS',
+            'image' => 'assets/img/products/Untitled design (1).png',
+            'desc' => 'No description available',
+        ],
+        [
+            'id' => 12,
+            'title' => 'CALCI-CRAMP Tablets',
+            'image' => 'assets/img/products/Untitled design (27).png',
+            'desc' => 'Calci-Cramp Minimizes bone loss in postmenopausal osteoporosis #Natural Relief of the compelling urge to jerk or move legs to relieve sensation of itching , tingling , crawling and the urge to move legs # Calci cramp Tablet promotes relaxation , supports nerve conduction & helps induce restful sleep # Calci cramp Tablet assists calcium in muscle contraction and helps in muscle cramps # Promotos Relaxation of Muscles , Relieve pain in limbs , Relieve muscles cramps relax Calf & Legs cramps.Calci-cramp Tablet should be given under the supervision of a doctor or health professional.',
+        ],
     ],
-    'Physician Segment Products' => [
+    'PHYSICIAN & GENERAL RANG' => [
         [
             'id' => 1,
+            'title' => 'LB-TRAL Energy powder',
+            'image' => 'assets/img/products/Untitled design (14).png',
+            'desc' => 'LB-TRAL Energy powder contain Dextrose monohydrate With Vitamin C ,Zinc, Electrolytes & Lactobacillus. Lb-tral powder is available in tangy lime lemon flavour. Lb-tral powder used as nutritional dietary supplement also helpful to replenish electrolyte imbalance & rehydrate the body & provide instant energy.
+
+                        Key Benefits :
+
+                        Provide Instant Energy & Electrolytes.
+                        Maintains normal Intestinal flora.
+                        Provide Vitamin C & Zinc.
+                        Provides Accurate Dosage.
+                        With the uniqueness of taste lime lemon flavour.',
+        ],
+        [
+            'id' => 2,
             'title' => 'LB-TRAL – CF Sachets',
             'image' => 'assets/img/products/Untitled design (15).png',
             'desc' => 'LB-TRAL CF a tasty way for cramps free move. This product is usefull in Leg Cramps, Night Cramps, Muscle Cramps, Cramps in Clave & Feet
@@ -196,7 +154,7 @@ $products = [
                         Promote relaxation of muscle & relive muscle cramps relax calf and leg cramps',
         ],
         [
-            'id' => 2,
+            'id' => 3,
             'title' => 'HINFER-LP Sachets',
             'image' => 'assets/img/products/Untitled design (26).png',
             'desc' => 'Liposomal Iron Oro-Dispersible Sachets
@@ -211,20 +169,6 @@ $products = [
                         Iron can taste good. Our HINFER-LP sachets have row mango taste without the harsh metallic taste
                         HINFER-LP sachets have superior bioavailability with high gastrointestinal absorption
                         HINFER-LP sachets contains ferric pyrophosphate (iron) in liposomal form, with essential Vitamin C, Vitamin B12 & folic acid',
-        ],
-        [
-            'id' => 3,
-            'title' => 'LB-TRAL Energy powder',
-            'image' => 'assets/img/products/Untitled design (14).png',
-            'desc' => 'LB-TRAL Energy powder contain Dextrose monohydrate With Vitamin C ,Zinc, Electrolytes & Lactobacillus. Lb-tral powder is available in tangy lime lemon flavour. Lb-tral powder used as nutritional dietary supplement also helpful to replenish electrolyte imbalance & rehydrate the body & provide instant energy.
-
-                        Key Benefits :
-
-                        Provide Instant Energy & Electrolytes.
-                        Maintains normal Intestinal flora.
-                        Provide Vitamin C & Zinc.
-                        Provides Accurate Dosage.
-                        With the uniqueness of taste lime lemon flavour.',
         ],
         [
             'id' => 4,
@@ -308,18 +252,57 @@ $products = [
         ],
         [
             'id' => 13,
-            'title' => 'INCOLD DX Syrup',
+            'title' => 'HINCOLD DX Syrup',
             'image' => 'assets/img/products/Untitled design (22).png',
             'desc' => 'HINCOLD-DX Syrup is used in the treatment of dry cough. Hincold dx syrup is a combination of three medicines: Chlorpheniramine maleate, Phenylephrine and Dextromethorphan Hydrobromide, which relieves dry cough. Chlorpheniramine is an anti allergic which relieves allergy symptoms like runny nose, watery eyes and sneezing. Phenylephrine is a potent and safe nasal decongestant. Dextromethorphan Hydrobromide is a cough suppressant that relieves cough by the reducing the activity of cough center in the brain.',
         ],
         [
             'id' => 14,
-            'title' => 'REBEHIN DSR Tablets',
-            'image' => 'assets/img/products/Untitled design (9).png',
-            'desc' => 'REBEHIN-DSR capsule is a combination of two medicine. Rabeprazole & Domperidone. Rabeprazole is a proton pump inhibitor (PPI) which work by reducing the amount of acid in the stomach which helps in the relief of acid related indigestion & heart burn. Domperidone is a Prokinetic which work on the upper digestive to increase the movement of stomach and intestine. Rebehin DSR capsule used in the treatment of GERD and associated problem. Rebehin DSR capsule give fastest relief from heart burn, belching & bloating.',
+            'title' => 'HINFLAM SP TABLETS',
+            'image' => 'assets/img/products/Untitled design (25).png',
+            'desc' => 'HINFLAM-SP Tabletsis a combination of three medicines Aceclofenac, Paracetamol & Serratiopeptidase. Aceclofanac is a non-steroidal anti inflammatory drug(NSAID), Paracetamol is an antipyretic and serratiopeptidas reduced swelling and improves microcirculation & promotes healing. Hinflam- sp tablets is used for pain relief. It relieves pain in condition like spinal spondylitis, post operative spasm, musculoskeletal pain etc.',
+        ],
+        [
+            'id' => 15,
+            'title' => 'SEDERM CREAM',
+            'image' => 'assets/img/products/1.png',
+            'desc' => 'SEDERM CREAM is a combination medicine that is used to treat various types of skin infections . It minimizes symptoms of inflammation such as redness , swelling , and itching . It also has antimicrobial action against infection - causing microorganisms . Sederm Cream for external use and should be used as advised by your doctor',
+        ],
+        [
+            'id' => 16,
+            'title' => 'HINVITA PLUS TABLETS',
+            'image' => 'assets/img/products/Untitled design (1).png',
+            'desc' => 'No description available',
+        ],
+        [
+            'id' => 17,
+            'title' => 'BASINUS Z SACHETS',
+            'image' => 'assets/img/products/Untitled design31.png',
+            'desc' => 'BASINUS-Z Sachets is fortified with Probiotic composite containing Saccharomyces boulardii, lactobacillus and Elemental zinc. Basinus-z sachets is a preparation that normalizes & restores gut flora. Prevent & treating antibiotic associated diarrhoea. Basinus-z sachets contains probiotics, so it offers several benefits related to digestive system.
+
+                        Key Benefits :
+
+                        Prevents drug induced diarrhoea
+                        Useful in treating diarrhoea caused by antibiotics.
+                        Restores & normalizes gut flora.
+                        Reduces duration of diarrhoea.s',
+        ],
+        [
+            'id' => 18,
+            'title' => 'IMMUNE 9H POWDER',
+            'image' => 'assets/img/products/Untitled design (17).png',
+            'desc' => 'IMMUN 9H powder contains Ashwagandha, Amla, Curcumin, Ginger, Black paper, guduchi, tamal patra, panax ginseng. Immun 9H powder are Sugar Free also available in Mints flavour. Immun 9H is used as nutritional dietary supplement also helpful to builds body immunity to fight against all types of infection. Reduced the risk of chronic disease & increase energy level and stamina. Reduced stress and anxiety and natural immunity booster.
+
+                        Key Benefits :
+
+                        Extract derived from 9 potent herbs & Sugar free.
+                        Immunity booster & great source of antioxidants.
+                        Contain all essential vitamins the body needs.
+                        Reduced the risk of chronic disease.
+                        High in energetic nutrients.',
         ],
     ],
-    'Nutritional Range' => [
+    'NUTRACEUTICAL RANGE' => [
         [
             'id' => 1,
             'title' => 'LB-TRAL – CF Sachets',
@@ -404,42 +387,49 @@ $products = [
         ],
         [
             'id' => 7,
-            'title' => 'BASINUS Sachets',
-            'image' => 'assets/img/products/Untitled design (30).png',
-            'desc' => 'BASINUS-Z Sachets is fortified with Probiotic composite containing Saccharomyces boulardii, lactobacillus and Elemental zinc. Basinus-z sachets is a preparation that normalizes & restores gut flora. Prevent & treating antibiotic associated diarrhoea. Basinus-z sachets contains probiotics, so it offers several benefits related to digestive system.
+            'title' => 'HINVITA PLUS TABLETS',
+            'image' => 'assets/img/products/Untitled design (1).png',
+            'desc' => 'No description available',
+        ],
+    ],
+    'ANTIBIOTIC RANGE' => [
+        [
+            'id' => 1,
+            'title' => 'CEPOHIN Tablets',
+            'image' => 'assets/img/products/Untitled design (24).png',
+            'desc' => 'Cefpodoxime Proxetil 200mg Dispersible Tablets',
+        ],
+        [
+            'id' => 2,
+            'title' => 'CEFIHIN Tablets',
+            'image' => 'assets/img/products/Untitled design (19).png',
+            'desc' => 'CEFIHIN 200DT Tablet is an antibiotic belonging that is used to treat a variety of bacterial infections . It is effective in infections of the respiratory tract ( eg . pneumonia ) , urinary tract , ear , nasal sinus , throat , and some sexually transmitted diseases . CEFIHIN 200 DT Tablet should be given under the supervision of a doctor or health professional.',
+        ],
+        [
+            'id' => 3,
+            'title' => 'AZIHIN Tablets',
+            'image' => 'assets/img/products/Untitled design (29).png',
+            'desc' => 'zihin- 250 Tablet is an antibiotic used to treat various types of bacterial infections of the respiratory tract , ear , nose , throat , lungs , skin , and eye in adults and children . It is also effective in typhoid fever and some sexually transmitted diseases like gonorrhea. Azihin 250mg Tablet should be given under the supervision of a doctor or health professiona',
+        ],
+    ],
+    'SKIN & HAIR PRODUCT' => [
+        [
+            'id' => 1,
+            'title' => 'ITRANUS CAPSULE',
+            'image' => 'assets/img/products/Untitled design (16).png',
+            'desc' => 'ITRANUS-200 capsule contain Itraconazole 200mg. Itranus 200 capsule is belong to a group of medicines called antifungals. It is used for the treatment of fungal infection. It is used to treat fungal infection of the mouth, vagina(thrush), skin & other parts of the body including fingernails and toenails. It kill fungi by destroying the fungal cell membrane.
 
                         Key Benefits :
 
-                        Prevents drug induced diarrhoea
-                        Useful in treating diarrhoea caused by antibiotics.
-                        Restores & normalizes gut flora.
-                        Reduces duration of diarrhoea.',
+                        Effectively treats resistant & recurrent fungal infection
+                        Achieves high clinical & mycological cure rates
+                        Potent inhibitor of most human fungal pathogens',
         ],
-    ],
-    // 'Skin & Hair Product' > [
-    //     [
-    //         'id' => 1,
-    //         'title' => '',
-    //         'image' => '',
-    //         'desc' => '',
-    //     ],
-    //     [
-    //         'id' => 2,
-    //         'title' => '',
-    //         'image' => '',
-    //         'desc' => '',
-    //     ],
-    //     [
-    //         'id' => 3,
-    //         'title' => '',
-    //         'image' => '',
-    //         'desc' => '',
-    //     ],
-    //     [
-    //         'id' => 4,
-    //         'title' => '',
-    //         'image' => '',
-    //         'desc' => '',
-    //     ],
-    // ]
+        [
+            'id' => 2,
+            'title' => 'SEDERM CREAM',
+            'image' => 'assets/img/products/1.png',
+            'desc' => 'SEDERM CREAM is a combination medicine that is used to treat various types of skin infections . It minimizes symptoms of inflammation such as redness , swelling , and itching . It also has antimicrobial action against infection - causing microorganisms . Sederm Cream for external use and should be used as advised by your doctor',
+        ],
+    ]
 ];
